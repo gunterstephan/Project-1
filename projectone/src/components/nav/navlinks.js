@@ -2,22 +2,17 @@ export const links =
 [
     {
         name: "Home",
-        address: "#",
+        address: "#sone",
         classname: "navlinks"
     },
     {
         name: "Skills",
-        address: "#",
+        address: "#stwo",
         classname: "navlinks"
     },
     {
-        name: "Projects",
-        address: "#",
-        classname: "navlinks"
-    },
-    {
-        name: "About Me",
-        address: "#",
+        name: "About",
+        address: "#sthree",
         classname: "navlinks"
     },
 

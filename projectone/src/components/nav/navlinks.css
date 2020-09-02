@@ -3,15 +3,20 @@
     margin: 0px;
     box-sizing: border-box;
 }
+body{
+    background-image: url(https://images.pexels.com/photos/1025469/pexels-photo-1025469.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+}
 nav{
+    opacity: 0.9;
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: #23395b;
     min-height: 5vh;
+    
 }
 .logo{
-    color: #D7DAE5;
+    color: #97a9e7;
 }
 .nav-links{
     min-height: 5vh;
@@ -26,7 +31,8 @@ li{
 }
 li a{
     text-decoration: none;
-    color: #D7DAE5;
+    font-weight: bold;
+    color: #aab7e7;
 }
 .options-mobile{
     display: none;
@@ -45,7 +51,7 @@ li a{
 
 @media screen and (max-width: 500px){
     body{
-        overflow: hidden;
+        overflow-x: hidden;
     }
     .nav-links{
         display: flex;

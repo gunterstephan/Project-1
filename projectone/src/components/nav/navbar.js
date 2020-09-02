@@ -19,9 +19,9 @@ class Navbar extends Component
     {
         const {mobileOptionsActive} = this.state;
         return(
-            <nav>
+            <nav className="headerer">
                 <div className="logo">
-                <h1>Stephan Gunter</h1>
+                <h1>IT Life</h1>
                 </div>
                     <ul className={"nav-links "+(mobileOptionsActive ? "optionsselect": null)}>
                     {links.map((link,index)=>{
