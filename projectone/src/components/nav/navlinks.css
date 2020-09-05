@@ -2,6 +2,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family: 'Lexend Peta', sans-serif;
 }
 body{
     background-image: url(https://images.pexels.com/photos/1025469/pexels-photo-1025469.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
@@ -13,7 +14,7 @@ nav{
     align-items: center;
     background-color: #23395b;
     min-height: 5vh;
-    
+    width: 100vw;
 }
 .logo{
     color: #97a9e7;

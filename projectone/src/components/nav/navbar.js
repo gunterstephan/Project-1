@@ -21,13 +21,13 @@ class Navbar extends Component
         return(
             <nav className="headerer">
                 <div className="logo">
-                <h1>IT Life</h1>
+                <h1>Software Anonymous</h1>
                 </div>
                     <ul className={"nav-links "+(mobileOptionsActive ? "optionsselect": null)}>
                     {links.map((link,index)=>{
                         return(
                             <li key={index}>
-                                <a className={link.classname} href={link.address}>{link.name}</a>
+                                <a className={link.classname} href={link.address} onClick={this.handleOptionsClick}>{link.name}</a>
                             </li>
                         )
                     })}
