@@ -5,7 +5,7 @@
     font-family: 'Lexend Peta', sans-serif;
 }
 body{
-    background-image: url(https://images.pexels.com/photos/1025469/pexels-photo-1025469.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    overflow: hidden;
 }
 nav{
     opacity: 0.9;
@@ -14,10 +14,10 @@ nav{
     align-items: center;
     background-color: #23395b;
     min-height: 5vh;
-    width: 100vw;
+    width: 100%;
 }
 .logo{
-    color: #97a9e7;
+    color: #bccaff;
 }
 .nav-links{
     min-height: 5vh;
@@ -33,7 +33,7 @@ li{
 li a{
     text-decoration: none;
     font-weight: bold;
-    color: #aab7e7;
+    color: #bccaff;
 }
 .options-mobile{
     display: none;
@@ -44,13 +44,13 @@ li a{
     height: 2px;
     width: 25px;
 }
-@media screen and (max-width: 750px){
+/*@media screen and (max-width: 750px){
     .nav-links{
         width: 50%
     }
-}
+}*/
 
-@media screen and (max-width: 500px){
+/*@media screen and (max-width: 500px){
     body{
         overflow-x: hidden;
     }
@@ -74,7 +74,7 @@ li a{
     }
 
 
-}
+}*/
 .optionsselect{
     transform: translateX(0%);
 }

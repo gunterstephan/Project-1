@@ -1,10 +1,12 @@
 import React, { Component } from 'react'
+import WeatherPost from './Weather.js'
+import './Home.css';
 
 class InformationPane extends Component{
     render(){
         return(
-            <div className= 'stockprice'>
-                Stock things
+            <div className= 'weatherPane'>
+                <WeatherPost />
             </div>
             
 

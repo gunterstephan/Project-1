@@ -27,7 +27,7 @@ class Navbar extends Component
                     {links.map((link,index)=>{
                         return(
                             <li key={index}>
-                                <a className={link.classname} href={link.address} onClick={this.handleOptionsClick}>{link.name}</a>
+                                <a id={index} className={link.classname} href={link.address} onClick={this.handleOptionsClick}>{link.name}</a>
                             </li>
                         )
                     })}

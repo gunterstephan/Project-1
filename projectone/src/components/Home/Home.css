@@ -1,7 +1,7 @@
 .homePage{
     height: 100vh;
-    width: 100vw;
-    background-color: rgb(72, 72, 204);
+    width: 100%;
+    background-color: rgb(255, 255, 255);
 }
 .mainview{
     display: flex;
@@ -9,4 +9,13 @@
     height: inherit;
     width: inherit;
     align-items: center;
+}
+.weatherPane{
+    padding: 10px;
+    background-color: #23395b;
+    border-width: 1px;
+    border-radius: 50px;
+    border-color: cadetblue;
+    color: #d5ddfc;
+    
 }
