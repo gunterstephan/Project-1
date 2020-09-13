@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import axios from 'axios';
+import {CircleLoader} from 'react-spinners'
 
 export default class WeatherPost extends Component
 {
@@ -14,6 +15,7 @@ export default class WeatherPost extends Component
     }
     componentDidMount()
     {
+        
         window.navigator.geolocation.getCurrentPosition(this.successfulLookup,console.log);   
         console.log();
     }
@@ -34,15 +36,13 @@ export default class WeatherPost extends Component
                 temp: temp,
                 humidity: humidity,
                 realfeal: feels_like
-            },()=> console.log("temp: "+this.state.temp))
+            })
         })
-        
-
-        
     }
     
     render()
     {
+
         return(
             <div className="weatherPane">
                 Local Weather:

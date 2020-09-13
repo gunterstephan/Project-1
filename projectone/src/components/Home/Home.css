@@ -10,11 +10,12 @@
     width: inherit;
     align-items: center;
 }
-.weatherPane{
-    padding: 10px;
+.weatherPane, .newsPane, .currencyPane{
+    margin: 10px;
+    padding: 20px;
     background-color: #23395b;
     border-width: 1px;
-    border-radius: 50px;
+    border-radius: 15px;
     border-color: cadetblue;
     color: #d5ddfc;
     

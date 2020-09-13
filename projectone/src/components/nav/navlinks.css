@@ -17,7 +17,7 @@ nav{
     width: 100%;
 }
 .logo{
-    color: #bccaff;
+    color: #d5ddfc;
 }
 .nav-links{
     min-height: 5vh;
@@ -33,7 +33,7 @@ li{
 li a{
     text-decoration: none;
     font-weight: bold;
-    color: #bccaff;
+    color:#d5ddfc;
 }
 .options-mobile{
     display: none;
