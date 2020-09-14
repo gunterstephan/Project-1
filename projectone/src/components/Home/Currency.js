@@ -81,19 +81,27 @@ export default class Currency extends Component{
                     this.setState({
                         ZARtoEuro: euro
                     })
+                    const loader = document.getElementById("s3");
+                    loader.classList.add("hide");
+                    const money = document.getElementById("ip");
+                    money.classList.remove("hide")
                 })
                 .catch((error)=>{
                     console.log(error)
                 })
+
     }
     render(){
         return(
-            <div className="currencyPane">
-                Dollar value: R{this.state.ZARtoUSD}
+            <div id="ip" className="currencyPane hidden">
+                <div id="s3" className="spinner3"></div>
+                <h1>Exchange rate:</h1>
                 <br/>
-                Can dollar value: R{this.state.ZARtoGBP}
+                USD: R{this.state.ZARtoUSD}
                 <br/>
-                Euro value: R{this.state.ZARtoEuro}
+                CAD: R{this.state.ZARtoGBP}
+                <br/>
+                EUR: R{this.state.ZARtoEuro}
             </div>
         )
     }

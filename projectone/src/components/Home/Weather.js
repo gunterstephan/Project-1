@@ -37,21 +37,29 @@ export default class WeatherPost extends Component
                 humidity: humidity,
                 realfeal: feels_like
             })
+            const loader = document.getElementById("s1");
+            loader.classList.add("hide");
+    
+            const weather = document.getElementById("wp");
+            weather.classList.remove("hide")
         })
+
     }
     
     render()
     {
 
         return(
-            <div className="weatherPane">
-                Local Weather:
+
+                <div id="wp" className="weatherPane hidden">
+                <div id="s1" className="spinner1"></div>
+                <h1>Local Weather:</h1>
                 <br/>
-                temp:{Math.round(this.state.temp)}
+                temp: {Math.round(this.state.temp)}
                 <br/>
                 real feel:{Math.round(this.state.realfeal)}
                 <br/>
-                hum:{this.state.humidity}%
+                humidity:{this.state.humidity}%
             </div>
         );
     }

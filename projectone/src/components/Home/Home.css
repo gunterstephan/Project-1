@@ -20,3 +20,25 @@
     color: #d5ddfc;
     
 }
+.hide{
+    display: none;
+}
+
+.spinner1, .spinner2, .spinner3{
+    margin-left: 5%;
+    position: absolute;
+    border: 0.5rem solid white;
+    border-radius: 50%;
+    border-top: 0.5rem solid blueviolet;
+    width: 2.5rem;
+    height: 2.5rem;
+    animation: spin 2s linear infinite;
+}
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

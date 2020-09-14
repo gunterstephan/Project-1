@@ -41,16 +41,22 @@ export default class News extends Component{
                     deaths: deaths,
                     recovered: recovered
                 })
+                const loader = document.getElementById("s2");
+                loader.classList.add("hide");
+                const virus = document.getElementById("covid");
+                virus.classList.remove("hide");
             })
             .catch((error)=>{
             console.log(error)
             })
+
             
     }
     render(){
         return(
-            <div className="newsPane">
-                COVID-19 Stats
+            <div id="covid" className="newsPane hidden">
+                <div id="s2" className="spinner2"></div>
+                <h1>COVID-19 Stats:</h1>
                 <br/>
                 Confirmed:{this.state.confirmed}
                 <br/>
