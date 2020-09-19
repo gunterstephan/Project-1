@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import axios from 'axios';
-import {CircleLoader} from 'react-spinners'
 
 export default class WeatherPost extends Component
 {

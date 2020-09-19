@@ -33,7 +33,7 @@ li{
 li a{
     text-decoration: none;
     font-weight: bold;
-    color:#d5ddfc;
+    color:white;
 }
 .options-mobile{
     display: none;
@@ -44,16 +44,25 @@ li a{
     height: 2px;
     width: 25px;
 }
-/*@media screen and (max-width: 750px){
+@media screen and (max-width: 750px){
     .nav-links{
         width: 50%
     }
-}*/
+}
 
-/*@media screen and (max-width: 500px){
+@media screen and (max-width: 500px){
     body{
         overflow-x: hidden;
+
     }
+    .technologies{
+        top: 5vh;
+        flex-wrap: wrap;
+    }
+    #technologies{
+        width: 95%;
+    }
+
     .nav-links{
         display: flex;
         flex-direction: column;
@@ -74,7 +83,7 @@ li a{
     }
 
 
-}*/
+}
 .optionsselect{
     transform: translateX(0%);
 }

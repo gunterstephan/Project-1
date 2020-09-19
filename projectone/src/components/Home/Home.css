@@ -9,6 +9,7 @@
     height: inherit;
     width: inherit;
     align-items: center;
+    overflow-x: hidden;
 }
 .weatherPane, .newsPane, .currencyPane{
     margin: 10px;

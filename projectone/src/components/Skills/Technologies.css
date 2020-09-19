@@ -1,0 +1,39 @@
+body{
+    color: #23395b;
+    size: 100%;
+}
+.technologies{
+
+    width: 75%;
+    display: flex;
+    align-content: center;
+    background-color: rgb(211, 221, 255);
+    border-radius: 10px;
+}
+img{
+    min-width: 70px;
+    width: 85%;
+    max-height: 10rem;
+    max-width: 10rem;
+    border-radius: inherit;
+}
+.header{
+    padding-top: 1vh;
+    font-size: 3vw;
+}
+
+p{
+    padding-left: 1vw;
+}
+.techpng{
+    min-width: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    margin: 2vw;
+}
+.projdesc{
+    width: 100%;
+}
