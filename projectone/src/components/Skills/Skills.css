@@ -5,6 +5,12 @@
     width: 100vw;
     background-color: white;
 }
+.header{
+    font-size: 1.5em;
+}
+.projs{
+    font-size: 1em;
+}
 .mainview2{
     top: 5vh;
     display: flex;

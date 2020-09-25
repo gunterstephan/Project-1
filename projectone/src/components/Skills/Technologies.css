@@ -11,6 +11,7 @@ body{
     border-radius: 10px;
 }
 img{
+    display: flex;
     min-width: 70px;
     width: 85%;
     max-height: 10rem;
@@ -19,7 +20,6 @@ img{
 }
 .header{
     padding-top: 1vh;
-    font-size: 3vw;
 }
 
 p{
@@ -31,7 +31,7 @@ p{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 15%;
+    width: 10%;
     margin: 2vw;
 }
 .projdesc{

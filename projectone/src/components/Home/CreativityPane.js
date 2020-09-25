@@ -4,7 +4,7 @@ class CreativityPane extends Component{
     render(){
         return(
             <div className= 'stockprice'>
-                Creative things
+                So know everything.
             </div>
             
 

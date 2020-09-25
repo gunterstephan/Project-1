@@ -1,6 +1,41 @@
 .aboutPage{
     height: 100vh;
     width: 100vw;
-    background-color: rgb(116, 216, 138);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.heading{
+    display: flex;
+    margin: 5%;
     
+}
+.cv{
+
+    display: flex;
+    justify-content: center;
+}
+p{
+    width: 50%;
+    font-size: 1.5em;
+}
+h2{
+    font-size: 1em;
+    text-decoration: underline;
+}
+.myname{
+    font-size: 2em;
+    text-decoration: underline;
+}
+.name{
+    margin-left: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.ppic{
+    height: 20vh;
+    width: auto;
+    box-shadow: 5px 10px 8px black;
+    border-radius: 15px;
 }
