@@ -43,3 +43,11 @@
         transform: rotate(360deg);
     }
 }
+@media screen and (max-width: 500px){
+    .stockprice{
+        display: none;
+    }
+    #catcher{
+        display: none;
+    }
+}

@@ -5,7 +5,7 @@ import './Catch.css'
 class Catch extends Component{
     render(){
         return(
-            <div className='catchcontent'>
+            <div id="catcher" className='catchcontent'>
                 <div className='catchone'>
                     Knowledge is
                 </div>

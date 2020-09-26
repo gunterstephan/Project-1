@@ -4,10 +4,11 @@
     background-color: white;
     display: flex;
     flex-direction: column;
+    overflow-y: auto;
 }
 .heading{
     display: flex;
-    margin: 5%;
+    margin: 10%;
     
 }
 .cv{
@@ -16,7 +17,7 @@
     justify-content: center;
 }
 p{
-    width: 50%;
+    width: 60%;
     font-size: 1.5em;
 }
 h2{
@@ -38,4 +39,9 @@ h2{
     width: auto;
     box-shadow: 5px 10px 8px black;
     border-radius: 15px;
+}
+@media screen and (max-width: 500px){
+    p{
+        width: 80%;
+    }
 }

@@ -21,7 +21,7 @@ class Navbar extends Component
         return(
             <nav className="headerer">
                 <div className="logo">
-                <h1>Software Anonymous</h1>
+                <h1>IT Everyday</h1>
                 </div>
                     <ul className={"nav-links "+(mobileOptionsActive ? "optionsselect": null)}>
                     {links.map((link,index)=>{
